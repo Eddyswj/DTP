@@ -38,9 +38,9 @@ From the root folder, install the packages specified in the `Pipfile`.
 python -m pipenv install
 ```
 The above steps will install the following packages:
-Flask 
-Flask-socketio
-Numpy
+- Flask 
+- Flask-socketio
+- Numpy
 
 The 'Bootstrap' package is not needed to be installed as we are referencing it through a CDN(Content Delivery Network)
 
