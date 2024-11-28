@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale=1.0>
+    <title>Variables</title>
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap Attachments -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{  url_for('static',filename='stylesheet/styles.css')  }}" >
+    <!-- <link rel="stylesheet" href="/static/stylesheets/styles.css"> -->
+</head>
+
+<h1 id="title">Crop Prediction to get the most yield</h1>
+
+<body>
+    <div class="container">
+        <form action="\predict" method="post">
+            <div class="row">
+                    <!-- Input for Temperature -->
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Temperature</h5>
+                            <input type="number" name="temperature" placeholder="In °C" id="temperature-input"
+                                required="required" step="any" min="0">
+                        </div>
+                    </div>
+                </div>
+                <!-- Input for Pollution -->
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Pollution</h5>
+                            <input type="number" name="pollution" placeholder="PM2.5"
+                                id="pollution-input" required="required" step="any" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="row">
+                <!-- Input for Pesticides -->
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pesticides Level</h5>
+                            <input type="number" name="pest" placeholder="Ratio of pesticides" id="pest-input"
+                                required="required" step="any" min="0">
+                        </div>
+                    </div>
+                </div>    
+                <!-- Input for Rainfall -->
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Rainfall Level</h5>
+                            <input type="number" name="rainfall" placeholder="Rainfall in mm" id="rainfall-input"
+                                required="required" step="any" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- Submit Button -->
+            <input href="crop prediction.html" type="submit" value="Submit" class="btn btn-grey">
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>

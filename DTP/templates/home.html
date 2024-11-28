@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+
+<head>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/styles2.css') }}">
+</head>
+
+<body>
+    <h1 id="title">Select the crops you have</h1>
+
+    <br>
+
+    <!-- Form to submit selected crops -->
+    <form method="POST" action="/select" required="required">
+        <select id="crops" name="crops[]" multiple required>
+            <option value="Cassava">Cassava</option>
+            <option value="Maize">Maize</option>
+            <option value="Rice, paddy">Rice & paddy</option>
+            <option value="Potatoes">Potatoes</option>
+            <option value="Sorghum">Sorghum</option>
+            <option value="Soybeans">Soybeans</option>
+            <option value="Sweet potatoes">Sweet potatoes</option>
+            <option value="Wheat">Wheat</option>
+            <option value="Yams">Yams</option>
+        </select>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit" class="btn btn-grey">
+    </form>
+</body>
+{% endblock %}

@@ -1,0 +1,151 @@
+* {
+    background: url(/static/images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+.text-uppercase, .submission-text, .legend {
+    color: white;
+}
+
+.reference {
+    text-align: center;
+}
+
+
+.jumbotron {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    /* right: 40px; */
+}
+
+.jumbo-text {
+    margin-top: 30px;
+}
+
+.display-4 {
+    color: rgb(255, 255, 255);
+}
+
+.problem-statement {
+    color: rgb(255, 255, 255);
+}
+
+.img-fluid {
+    margin-bottom: 20px;
+    image-orientation: center;
+}
+
+.card-body {
+    background-color: rgba(79, 76, 76, 0.6); /* Default semi-transparent gray */
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #0a0a0a; /* Optional border for the input box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    background-color: rgba(0, 255, 30, 0.8); 
+    box-shadow: 0 8px 16px 4px rgba(0, 255, 26, 0.8);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(169, 169, 169);
+}
+
+::placeholder {
+    color: black;
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+
+#small-text {
+    background-color: blacksmoke;
+}
+
+
+.my-contr {
+    color: rgb(255, 255, 255);
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    color: White;
+}
+
+.card-header {
+    color: rgb(0, 0, 0);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body-content {
+    flex: 1;
+    padding: 20px; 
+}
+
+.footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+input[type="number"] {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 1px solid #0a0a0a; 
+    border-radius: 5px; 
+    font-size: 1rem; 
+}
+
+/* Style the dropdown container */
+select {
+    width: 50%; /* Make the dropdown take up the full width of its container */
+    height: 200px;
+    background-color: #f9f9f979; /* Light background */
+    color: #333; /* Dark text for readability */
+    font-size: 20px; /* Font size for readability */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px; 
+}
+
+select option:checked {
+    background-color: #00c3ff;
+    color: white; 
+}
+
+select option:hover {
+    background-color: #f1f1f1; 
+}
