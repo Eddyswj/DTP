@@ -1,4 +1,4 @@
-# DTP Website using Flask
+# Crop Prediction for most yield
 
 ## Install Git
 
