@@ -1,12 +1,12 @@
 # DTP Website using Flask
 
-### Install Git
+## Install Git
 
 You need to have Git to do the project. Download and install the software according to your OS:
 - Windows: [Git for Windows](https://git-scm.com/download/win)
 - Mac OS: [Git for MacOS](https://git-scm.com/download/mac)
 
-### Downloading Repository
+## Downloading Repository
 Clone the mini project repository from Github. On your terminal or Git Bash, type the following:
 
 ```shell
@@ -64,6 +64,7 @@ To exit the virtual environment at the end of this mini project, simply type:_
 ```shell
 exit
 ```
+## Running the Website
 Now, you can run Flask by typing:
 
 ```shell
@@ -78,4 +79,11 @@ You should see that this output will be thrown out:
 
 Now you can open your browser at `http://127.0.0.1:5000/` to see the web app. 
 
-To stop the web app, type `CTRL+C`.
+To stop the website, type `CTRL+C`.  
+
+## On the Website
+
+Follow the clear and simple instructions on each page to discover the **best crop type** for achieving **maximum yield**. With just a few steps, you'll be on your way to making a more productive farming decisions. 
+
+Here's to your success in agriculture!
+
