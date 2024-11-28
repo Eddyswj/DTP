@@ -17,12 +17,12 @@ Once you have downloaded the repository, you can go to the repository and to the
 
 Windows:
 ```dos
-cd DTP
+cd Webapp
 ```
 
 Unix/MacOS:
 ```shell
-cd DTP
+cd Webapp
 ```
 
 ## Create Virtual Environment 
@@ -53,11 +53,11 @@ You should see the word `(mp_calc)` in your prompt something like:
 
 Windows:
 ```dos
-(DTP) folder >
+(Webapp) folder >
 ```
 Unix/MacOS:
 ```shell
-(DTP) user $
+(Webapp) user $
 ```
 
 To exit the virtual environment at the end of this mini project, simply type:_
