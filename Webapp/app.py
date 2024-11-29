@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template, session
 from flask_socketio import SocketIO
-from ML import run
-
+from Webapp.ML import run
 
 app = Flask(__name__)
 socketio = SocketIO(app)
