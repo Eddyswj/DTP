@@ -83,8 +83,7 @@ To stop the website, type `CTRL+C`.
 
 ## On the Website
 
-![](https://dl.dropboxusercontent.com/s/kcqwayc26x3kexp3zrhqa/Homepage.png
-)
+![](https://dl.dropboxusercontent.com/s/kcqwayc26x3kexp3zrhqa/Homepage.png)
 
 Follow the clear and simple instructions on each page to discover the **best crop type** for achieving **maximum yield**. With just a few steps, you'll be on your way to making a more productive farming decisions. 
 
