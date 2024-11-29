@@ -1,4 +1,4 @@
-# Crop Prediction for most yield
+# Crop Prediction through Machine Learning
 
 ## Install Git
 
