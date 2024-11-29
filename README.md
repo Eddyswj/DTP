@@ -17,12 +17,12 @@ Once you have downloaded the repository, you can go to the repository and to the
 
 Windows:
 ```dos
-cd Webapp
+cd DTP/Webapp
 ```
 
 Unix/MacOS:
 ```shell
-cd Webapp
+cd DTP/Webapp
 ```
 
 ## Create Virtual Environment 
@@ -49,7 +49,7 @@ To activate the virtualenv, run
 python -m pipenv shell
 ```
 
-You should see the word `(mp_calc)` in your prompt something like:
+You should see the word `(Webapp)` in your prompt something like:
 
 Windows:
 ```dos
