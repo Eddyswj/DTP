@@ -6,16 +6,17 @@
     background-size: cover;
 }
 
+@font-face {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Cabin.woff2') format('woff2');
+}
+
 body {
     background-color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Cabin', sans-serif;
-}
-
-.navbar {
-    background-color: #37eb37;
-    font-family: 'Playfair Display', serif;
-    font-weight: bolder;
 }
 
 
@@ -27,17 +28,6 @@ body {
     text-align: center;
 }
 
-
-.jumbotron {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    color: rgb(255, 255, 255);
-    /* right: 40px; */
-}
-
-.jumbo-text {
-    margin-top: 30px;
-}
 
 .display-4 {
     color: rgb(255, 255, 255);
@@ -70,6 +60,9 @@ body {
 .btn {
     border: 2px solid black;
     border-radius: 10px;
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none; 
 }
 
 .btn:hover{

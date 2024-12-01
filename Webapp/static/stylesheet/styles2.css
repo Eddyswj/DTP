@@ -6,6 +6,13 @@
     background-size: cover;
 }
 
+@font-face {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Cabin.woff2') format('woff2');
+}
+
 body {
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -18,18 +25,6 @@ body {
 
 .reference {
     text-align: center;
-}
-
-
-.jumbotron {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    color: rgb(255, 255, 255);
-    /* right: 40px; */
-}
-
-.jumbo-text {
-    margin-top: 30px;
 }
 
 .display-4 {
@@ -46,11 +41,11 @@ body {
 }
 
 .card-body {
-    background-color: rgba(79, 76, 76, 0.6); /* Default semi-transparent gray */
+    background-color: rgba(79, 76, 76, 0.6); 
     border-radius: 10px;
     padding: 20px;
     color: rgb(0, 0, 0);
-    border: 2px solid #0a0a0a; /* Optional border for the input box */
+    border: 2px solid #0a0a0a; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -129,15 +124,15 @@ input[type="number"] {
     font-size: 1rem; 
 }
 
-/* Style the dropdown container */
+
 select {
-    width: 50%; /* Make the dropdown take up the full width of its container */
+    width: 50%; 
     height: 200px;
-    background-color: #f9f9f979; /* Light background */
-    color: #333; /* Dark text for readability */
-    font-size: 20px; /* Font size for readability */
+    background-color: #f9f9f979;
+    color: #333; 
+    font-size: 20px; 
     border: 1px solid #ccc;
-    border-radius: 4px; /* Rounded corners */
+    border-radius: 4px; 
     padding: 5px; 
 }
 
