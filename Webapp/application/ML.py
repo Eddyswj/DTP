@@ -3,8 +3,6 @@ import numpy as np
 def run(Temperature, Pollution, Pesticides, Precipitation, crops):
 
     X = np.array([Pesticides,Temperature,Pollution,Precipitation])
-    print(X)
-    print(crops)
 
     #fixed calculated variables from model
     betas = {'Potato': np.array([[18.14467658],[4.05261727],[-2.64548464],[-1.61457113],[-2.60145514]]), 
