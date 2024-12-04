@@ -29,8 +29,6 @@ def normalize_z(array,
     return out, columns_means, columns_stds
 
 
-    return out, columns_means, columns_stds
-
 def prepare_feature(np_feature):
     
     np_feature = np_feature.reshape(1,-1)
