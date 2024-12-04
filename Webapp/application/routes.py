@@ -1,6 +1,6 @@
 from flask import render_template, request, session
 from application import app  
-from application.ML import run 
+from .ML import run 
 
 @app.route("/")
 def home():
